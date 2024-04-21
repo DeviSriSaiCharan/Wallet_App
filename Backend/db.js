@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://devisrisaicharan2:9491303100@test.rwzlrgc.mongodb.net/PayTM')
+mongoose.connect('#')  //add your mongoDB cluster url
 .then((res) =>{
     console.log(res+'connected to database');
 })
